@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timer</title>
+    <script src = "index.js"></script>
+    <style type = "text/css">
+        .page{
+            text-align: center;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+
+        #counter1{
+            margin:20px;
+        }
+
+    
+    </style>
+</head>
+<body onload="counterTimer()">
+    <!-- Timer Page -->
+    <div class = "page">
+        <!-- Timer Label -->
+        <div class = "label">
+            <h1>Privado Timer</h1>
+        </div>
+        <!-- Counter -->
+        <div id = "counter1">
+
+        </div>
+        <!-- Button Section -->
+        <div id = "buttons">
+            <button onclick="Timer()"><b id = "start">Start</b></button>
+        </div>
+    </div>
+    
+</body>
+</html>
